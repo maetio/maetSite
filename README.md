@@ -1,2 +1,2 @@
-# maetSite
-New Maet Website
+# website
+website for maet
