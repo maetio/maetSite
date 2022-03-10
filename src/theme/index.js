@@ -35,8 +35,8 @@ export default {
 		"1620px",
 	],
 	fonts: {
-		body: "'Libre Franklin', sans-serif",
-		heading: "'Libre Franklin', sans-serif",
+		body: "'Trebuchet MS', sans-serif",
+		heading: "'Trebuchet MS', sans-serif",
 	},
 	fontSizes: [12, 15, 16, 18, 20, 22, 24, 28, 32, 36, 42, 48, 52, 64],
 	fontWeights: {
