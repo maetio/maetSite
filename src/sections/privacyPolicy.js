@@ -7,16 +7,17 @@ const textData = {
 	title: 'Our Privacy Policy',
 	description:
 	    `At Maet, your data protection and privacy are of the utmost importance to us. 
-        With that in mind, our app only collects data that is essential to product development and usage rates.
-        Additionally, we do not sell your information to third-party vendors.
+        With that in mind, our app only collects data that is essential to our product features and and understanding usage rates. 
+		This data is stored and protected by Google's Firebase database service and no user information is sold to third-party vendors.
         Other than the user account information, Maet only collects data that are integral to the features of its app, which includes the following:
         User Games, User Teams, User Wins and Losses.
+		User engagement metrics on app screens are collected with Google Firebase's analytics service and are used to solely understand user traffic and app crashes.
         `,
 };
 
 const contactData = {
     description: `
-        If you would like to receive a download of your Maet user data, or request to have your account data deleted,
+        If you would like to receive a download of your Maet user data, request to have your account data deleted, or revoke your consent to these privacy practices,
         please contact team@maet.io with your name, username, and request and we will get back to you as soon as possible.
     `
 };
