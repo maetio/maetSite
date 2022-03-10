@@ -38,5 +38,9 @@ export default {
 			path: "https://github.com/maetio",
 			label: "GitHub",
 		},
+		{
+			path: "/policy",
+			label: "Privacy Policy"
+		}
 	],
 };

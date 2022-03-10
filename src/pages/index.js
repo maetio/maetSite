@@ -23,7 +23,7 @@ export default function IndexPage() {
 				<Layout>
 					<SEO title="Maet.io" />
 					<Banner />
-					{/*<KeyFeature />
+					{/* <KeyFeature />
           <ServiceSection />
           <Feature />
           <CoreFeature />
@@ -32,7 +32,7 @@ export default function IndexPage() {
           <TeamSection />
           <TestimonialCard />
           <BlogSection />
-					<Subscribe />*/}
+					<Subscribe /> */}
 				</Layout>
 			</StickyProvider>
 		</ThemeProvider>
