@@ -1,16 +1,24 @@
 /** @jsx jsx */
 import { jsx } from "theme-ui";
-import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
-import ShapeLeft from "assets/shape-left.png";
-import ShapeRight from "assets/shape-right.png";
+import { Container, Box, } from "theme-ui";
 import TextFeature from 'components/text-feature';
 
-const data = {
-	subTitle: 'Core features',
-	title: 'Smart Jackpots that you may love this anytime & anywhere',
+const textData = {
+	title: 'Our Privacy Policy',
 	description:
-	    `Get your tests delivered at let home collect sample from the victory of
-        the managements that supplies best design system guidelines ever.`,
+	    `At Maet, your data protection and privacy are of the utmost importance to us. 
+        With that in mind, our app only collects data that is essential to product development and usage rates.
+        Additionally, we do not sell your information to third-party vendors.
+        Other than the user account information, Maet only collects data that are integral to the features of its app, which includes the following:
+        User Games, User Teams, User Wins and Losses.
+        `,
+};
+
+const contactData = {
+    description: `
+        If you would like to receive a download of your Maet user data, or request to have your account data deleted,
+        please contact team@maet.io with your name, username, and request and we will get back to you as soon as possible.
+    `
 };
 
 export default function PrivacyPolicy() {
@@ -19,8 +27,11 @@ export default function PrivacyPolicy() {
 			<Container sx={styles.banner.container}>
 				<Box sx={styles.banner.contentBox}>
                     <TextFeature
-                        title={data.title}
-                        description={data.description}
+                        title={textData.title}
+                        description={textData.description}
+                    />
+                    <TextFeature
+                        description={contactData.description}
                     />
 				</Box>
 			</Container>
@@ -34,32 +45,6 @@ const styles = {
 		pb: [2, null, 0, null, 2, 0, null, 5],
 		position: "relative",
 		zIndex: 2,
-		"&::before": {
-			position: "absolute",
-			content: '""',
-			bottom: 6,
-			left: 0,
-			height: "100%",
-			width: "100%",
-			zIndex: -1,
-			backgroundImage: `url(${ShapeLeft})`,
-			backgroundRepeat: `no-repeat`,
-			backgroundPosition: "bottom left",
-			backgroundSize: "36%",
-		},
-		"&::after": {
-			position: "absolute",
-			content: '""',
-			bottom: "40px",
-			right: 0,
-			height: "100%",
-			width: "100%",
-			zIndex: -1,
-			backgroundImage: `url(${ShapeRight})`,
-			backgroundRepeat: `no-repeat`,
-			backgroundPosition: "bottom right",
-			backgroundSize: "32%",
-		},
 		container: {
 			minHeight: "inherit",
 			display: "flex",
@@ -71,16 +56,6 @@ const styles = {
 			mx: "auto",
 			textAlign: "center",
 			mb: ["40px", null, null, null, null, 7],
-		},
-		imageBox: {
-			justifyContent: "center",
-			textAlign: "center",
-			display: "inline-flex",
-			mb: [0, null, -6, null, null, "-40px", null, -3],
-			img: {
-				position: "relative",
-				height: [245, "auto"],
-			},
 		},
 	},
 };
