@@ -7,7 +7,7 @@ const textData = {
 	title: 'The Maet Challenge',
 	description:
 	    `The Maet challenge is defined as follows: 
-		$200 will be given to the 4v4 Flag Football team that obtains the highest rating on the Maet platform by 12:00 a.m. on May 1st, 2020. 
+		$200 will be given to the 4v4 Flag Football team that obtains the highest rating on the Maet platform by 12:00 a.m. on May 1st, 2022. 
 		The reward will be given to the captain of the team for distribution. 
 		If there is a tie between teams, the reward will be split equally among them. 
 		Maet only tracks the results of these competitions and is not responsible for any injuries or actions related to the games that are created on the platform. 
